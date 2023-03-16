@@ -1,0 +1,178 @@
+body{
+  --color-accent: rgba(255, 60, 60, 0.741);
+  --color-accent-hover: rgba(130, 27, 27, 0.741);
+}
+
+.text-danger{
+  color: var(--color-accent) !important;
+}
+
+.btn-danger{
+  border-color: var(--color-accent);
+  background-color: var(--color-accent);
+}
+
+.btn-danger:hover{
+  border-color: var(--color-accent-hover);
+  background-color: var(--color-accent-hover);
+}
+
+.btn-outline-danger{
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.btn-outline-danger:hover{
+  background-color: var(--color-accent);
+  color:white;
+}
+
+.main-content-website section:nth-child(2n){
+  background-color: #2e3135;
+}
+
+#firstRowHomePage{
+  min-height: 100vh;
+  background-image: url("images/fondDev.jpg");
+  background-position: center;
+}
+
+.scrolled{
+  background-color: white;;
+}
+
+#text-presentation{
+  background-color: #000000bd;
+  margin-top: -100px;
+}
+
+.Description{
+  max-width: 550px;
+  margin: 15px auto;
+  font-size: 16px;
+}
+
+.text-bienvenue{
+  font-size: 22px;
+}
+
+.big-text{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#mouseBtn i{
+  color:white;
+  font-size: 40px;
+  position: absolute;
+  bottom: 30px;
+  transform: translate(-50%, -50%) rotate(180deg);
+  transition: 0.5s;
+}
+
+#mouseBtn  i:hover{
+
+  bottom: 30px;
+  font-size: 50px;
+  transform: translate(-50%, -50%) rotate(0deg);
+  cursor: pointer;
+}
+
+.btn-social-share{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.all-competences img{
+  max-width: 100px;
+  margin: auto;
+}
+
+a.nav-link.active{
+  color: var(--color-accent) !important;
+}
+
+#navbarSite{
+  transition: 0.5s;
+  z-index: 1000;
+}
+
+.temoignage-text{
+  color:#8b8c8d;
+}
+
+.testimonial-icon{
+  color:var(--color-accent);
+  padding: 30px;
+  font-size: 45px;
+}
+
+#temoignages{
+  padding-bottom: 100px !important;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color:var(--color-accent);
+}
+
+#scroll-top-button{
+  position: fixed;
+  bottom:10px;
+  right: 10px;
+  background-color: var(--color-accent);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+#scroll-top-button.show{
+  opacity: 1;
+  visibility: visible;
+}
+
+#realisations img.realisations-img{
+  max-width: 100%;
+}
+
+#realisations a{
+  color:white;
+  text-decoration: none;
+}
+
+#realisations a:hover{
+  color:white;
+  text-decoration: underline;
+}
+
+.contact-container .contact-header i{
+  font-size: 45px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-container .contact-header h3{
+  font-weight: 300;
+  font-size: 20px;
+}
+
+
+.contact-container .contact-body a,
+.contact-container .contact-body{
+  text-decoration: none;
+}
+
+.footer-page div{
+margin:30px;
+}
+
+.footer-page{
+  background-color: #181818;
+  padding: 30px;
+}
+
+
+.footer-page a{
+  text-decoration: none;
+}
+
