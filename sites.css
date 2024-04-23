@@ -95,7 +95,9 @@ a.nav-link.active{
 
 #navbarSite{
   transition: 0.5s;
-  z-index: 1000;
+  
+  /*z-index: 1000;*/
+  
 }
 
 .temoignage-text{
@@ -131,8 +133,9 @@ a.nav-link.active{
   visibility: visible;
 }
 
-#realisations img.realisations-img{
+#realisations .realisations-img{
   max-width: 100%;
+  border-radius: 20px;
 }
 
 #realisations a{
@@ -175,4 +178,9 @@ margin:30px;
 .footer-page a{
   text-decoration: none;
 }
-
+#map{
+  height: 300px;
+  width: 90%;
+  border-radius: 20px;
+  border: solid 2px red;
+}
